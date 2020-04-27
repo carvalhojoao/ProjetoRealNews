@@ -49,7 +49,7 @@
 	<br />
 	<br />
 </div>
-<form action="CriarComentario.do" method="post" style="margin-left: 10px;">
+<form action="CriarComentario.do" method="post" style="margin-left: 20px;">
 	<div class="row">
 		<input type="hidden" id="idNoticia" name="idNoticia" value="<%=noticia.getId()%>">
 		<div class="col-md-12">
@@ -58,7 +58,7 @@
 	</div>
 	<div class="row">
 		<div class="col-md-2">
-			<label for="nome" >nome:</label>
+			<label for="nome" >Nome:</label>
 		</div>  
 		<div class="col-md-10">
 			<input type="text" id="nome" name="nome">

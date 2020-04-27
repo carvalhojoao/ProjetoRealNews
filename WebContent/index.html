@@ -11,9 +11,20 @@
 <body>
 
 	<form action="BuscarNoticias.do" method="post" class="container-fluid">
-		<label class="text-center">Real News</label>
-		<button type="submit" name="action" class="btn btn-primary col-3">Buscar Noticias</button>
-		<button type="button" onclick="window.location.href='criarNoticia.html'" name="action" class="btn btn-primary col-3">Criar Noticia</button>
+		<div class="row">
+			<div class="col-md-4 offset-md-4 text-center">
+				<h1 class="text-center">Real News</h1>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 offset-md-2">
+				<button type="submit" name="action" class="btn btn-block btn-primary">Buscar Noticias</button>
+			</div>
+			<div class="col-md-4">
+				<button type="button" onclick="window.location.href='criarNoticia.html'" name="action" class="btn btn-block btn-primary">Criar Noticia</button>
+			</div>
+		</div>
 	</form>
 </body>
 </html>

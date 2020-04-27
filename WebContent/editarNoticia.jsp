@@ -26,7 +26,7 @@
 		<textarea rows="15" cols="40" id="texto" name="texto"><%=noticia.getTexto()%></textarea>
 		<br /> 
 		<br />
-		<input type="submit" value="Editar">
+		<input type="submit" value="Editar" class="btn btn-primary col-3">
 	</form>
 </body>
 </html>

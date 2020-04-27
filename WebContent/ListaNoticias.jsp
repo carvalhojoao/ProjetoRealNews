@@ -14,7 +14,12 @@
 <body>
 
 <form action="EditarExcluir.do" method="post" class="container-fluid">
-	<h3>Lista de Notícias</h3>
+	<div class="text-center">
+		<br />
+		<h3>Lista de Notícias</h3>
+		<hr>
+	</div>
+	<br />
 	<table class="table table-striped">
 		<tr>
 			<th></th>
